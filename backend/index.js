@@ -17,6 +17,7 @@ const allowedOrigins = [
     "http://localhost:5173", 
     "http://localhost:5174", 
     "http://localhost:3000", 
+    "https://social-media-swart-nu.vercel.app",
     "https://social-media-swart-nu.vercel.app/"
 ];
 
