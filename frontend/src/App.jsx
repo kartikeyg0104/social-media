@@ -26,7 +26,7 @@ import getAllNotifications from './hooks/getAllNotifications'
 import Notifications from './pages/Notifications'
 import { setNotificationData } from './redux/userSlice'
 export const serverUrl = import.meta.env.MODE === "production" 
-  ? "https://social-media-backend-urvq.onrender.com" 
+  ? "https://social-media-production-85e2.up.railway.app/" 
   : "http://localhost:3002"
 function App() {
    getCurrentUser()
